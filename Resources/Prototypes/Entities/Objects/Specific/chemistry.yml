@@ -344,6 +344,31 @@
   - type: Item
     size: Tiny
     sprite: Objects/Specific/Chemistry/syringe.rsi
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape: !type:PhysShapeCircle
+          radius: 0.2
+        density: 5
+        mask:
+        - ItemMask
+        restitution: 0.3
+        friction: 0.2
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.1,-0.1,0.1,0.1"
+        hard: false
+        mask:
+        - Impassable
+        - BulletImpassable
+  - type: EmbeddableProjectile
+    sound: /Audio/Weapons/star_hit.ogg
+    embedOnThrow: false
+  - type: ThrowingAngle
+    angle: 0
+  - type: Ammo
+    muzzleFlash: null
   - type: SolutionContainerManager
     solutions:
       injector:
@@ -365,6 +390,11 @@
   - type: Tag
     tags:
     - Syringe
+  - type: SolutionInjectOnEmbed
+    transferAmount: 15
+    solution: syringe
+  - type: SolutionTransfer
+    maxTransferAmount: 15
 
 - type: entity
   parent: BaseSyringe

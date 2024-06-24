@@ -1,0 +1,51 @@
+- type: entity
+  abstract: true
+  parent: BaseItem
+  id: SyringeWeaponBase
+  components:
+  - type: Sprite
+  - type: Item
+    size: Normal
+
+- type: entity
+  parent: SyringeWeaponBase
+  id: SyringeMedGun
+  name: medical syringe gun
+  description: Portable war crime legal gun?.
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Medical/syringegun.rsi
+    layers:
+      - state: base
+      - state: withsyringe
+  - type: Item
+    size: Normal
+    sprite: Objects/Specific/Medical/syringegun.rsi
+    heldPrefix: inhand
+  - type: Clothing
+    slots:
+    - Back
+    - suitStorage
+  - type: Gun
+    fireRate: 0.5
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/click.ogg
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - Syringe
+    capacity: 1
+    soundInsert:
+      path: /Audio/Weapons/click.ogg
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+  - type: MagazineVisuals
+    magState: withsyringe
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
