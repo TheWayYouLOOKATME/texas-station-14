@@ -1,0 +1,131 @@
+- type: entity
+  id: BaseWeaponBatteryb
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Sprite
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: Gun
+    fireRate: 2
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser.ogg
+  - type: Battery
+    maxCharge: 1001
+    startingCharge: 1001
+  - type: Appearance
+  - type: StaticPrice
+    price: 50000
+
+- type: entity
+  id: BaseWeaponPowerCellb
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Sprite
+  - type: Item
+    size: Huge
+  - type: Gun
+    fireRate: 2
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser.ogg
+  - type: MagazineAmmoProvider
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: PowerCellSmall
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        whitelist:
+          tags:
+            - PowerCell
+            - PowerCellSmall
+  - type: Appearance
+  - type: StaticPrice
+    price: 500
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+
+- type: entity
+  id: BaseWeaponBatterySmallb
+  parent: BaseWeaponBatteryb
+  abstract: true
+  components:
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Battery/taser.rsi
+    quickEquip: false
+    slots:
+    - Belt
+    - suitStorage
+
+- type: entity
+  id: BaseWeaponPowerCellSmallb
+  parent: BaseWeaponPowerCellb
+  abstract: true
+  components:
+  - type: Item
+    size: Small
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Battery/taser.rsi
+    quickEquip: false
+    slots:
+    - Belt
+
+- type: entity
+  name: Energy Crossbow
+  parent: BaseWeaponBatterySmall
+  id: WeaponECrossBow
+  description: A high tech energy crossbow by syndicate.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Crossbow/energycrossbow.rsi
+    state: ecrossbow
+  - type: Item
+    size: Normal
+    sprite: Objects/Weapons/Crossbow/energycrossbow.rsi
+    heldPrefix: ecrossbow
+  - type: Gun
+    selectedMode: SemiAuto
+    fireRate: 1
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/harpoon.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletCrossBowDisabler
+    capacity : 1
+    shots : 1
+    fireCost: 1000
+  - type: AmmoCounter
+    deleted : true
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 675
+    slots:
+    - Belt
+    - suitStorage
