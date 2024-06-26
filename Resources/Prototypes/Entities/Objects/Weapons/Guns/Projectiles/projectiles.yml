@@ -978,6 +978,7 @@
     requirePower: false
   - type: Tag
     tags:
+      - HideContextMenu
 
 - type: entity
   name : crossbowenergy bolt

@@ -25,7 +25,7 @@ from datetime import datetime, timedelta, timezone
 MAX_ITEM_AGE = timedelta(days=30)
 
 # Set as a repository secret.
-CHANGELOG_RSS_KEY = os.environ.get("CHANGELOG_RSS_KEY")
+CHANGELOG_RSS_KEY = secrets.CHANGELOG_RSS_KEY
 
 # Change these to suit your server settings
 # https://docs.fabfile.org/en/stable/getting-started.html#run-commands-via-connections-and-run
