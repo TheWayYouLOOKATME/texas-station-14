@@ -246,3 +246,22 @@
     qualities:
       - Sawing
     speedModifier: 2.0
+
+- type: entity
+  name: surgical drapes
+  id: DrapesItem
+  parent: BaseToolSurgery
+  description: debug.
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Medical/Surgery/drapes.rsi
+    state: surgicaldrapes
+  - type: ActivatableUI
+    key: enum.HealthAnalyzerUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.HealthAnalyzerUiKey.Key:
+        type: HealthAnalyzerBoundUserInterface
+  - type: Item
+    sprite: Objects/Specific/Medical/Surgery/drapes.rsi
+    storedRotation: 90
