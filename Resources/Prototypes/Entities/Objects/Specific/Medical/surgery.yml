@@ -256,12 +256,11 @@
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/drapes.rsi
     state: surgicaldrapes
-  - type: ActivatableUI
-    key: enum.HealthAnalyzerUiKey.Key
+  - type: MedicalDrapes
   - type: UserInterface
     interfaces:
-      enum.HealthAnalyzerUiKey.Key:
-        type: HealthAnalyzerBoundUserInterface
+      enum.MedicalDrapesUiKey.Key:
+        type: MedicalDrapesBoundUserInteface
   - type: Item
     sprite: Objects/Specific/Medical/Surgery/drapes.rsi
     storedRotation: 90
