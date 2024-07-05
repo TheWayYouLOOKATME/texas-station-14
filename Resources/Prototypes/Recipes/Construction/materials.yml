@@ -10,6 +10,17 @@
   objectType: Item
 
 - type: construction
+  name: surgical drapes
+  id: DrapesItem
+  graph: DrapesItem
+  startNode: start
+  targetNode: DrapesItem
+  category: construction-category-materials
+  description: A very calming cloth until you see your blood is on it...
+  icon: { sprite: Objects/Specific/Medical/Surgery/drapes.rsi, state: surgicaldrapes }
+  objectType: Item
+
+- type: construction
   name: reinforced glass
   description: A reinforced sheet of glass.
   id: SheetRGlass

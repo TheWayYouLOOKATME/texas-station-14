@@ -7,6 +7,14 @@
     Steel: 200
 
 - type: latheRecipe
+  id: DrapesItem
+  result: DrapesItem
+  completetime: 2
+  materials:
+    Cloth: 140
+    Plastic: 40
+
+- type: latheRecipe
   id: Retractor
   result: Retractor
   category: Tools
