@@ -1,0 +1,17 @@
+- type: constructionGraph
+  id: DrapesItem
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: DrapesItem
+          completed:
+            - !type:SetStackCount
+              amount: 1
+          steps:
+            - material: Cloth
+              amount: 10
+            - material: Plastic
+              amount: 5
+    - node: DrapesItem
+      entity: DrapesItem

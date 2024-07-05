@@ -7,8 +7,6 @@ Entries:
   time: '2024-06-25T02:27:11.0000000+00:00'
 - author: Codyzii
   changes:
-  - message: Теперь тут есть бракованный щприцемет
-    type: Add
   - message: Изменил текстурки у щприцов
     type: Tweak
   id: 6816
@@ -17,9 +15,23 @@ Entries:
   changes:
   - message: Ретекстур материалов
     type: Tweak
-  - message: Остальные спиженные текстуры 
-    type: Tweak
-  - message: Теперь у дверей не горит свет, ну только чут чут
+  - message: Теперь у дверей не горит свет, ну только чут чут.
     type: Tweak
   id: 6817
   time: '2024-06-26T12:27:11.0000000+00:00'
+- author: Codyzii
+  changes:
+  - message: Добавлен П90
+    type: Add
+  id: 6819
+  time: '2024-07-3T12:27:11.0000000+00:00'
+- author: Codyzii
+  changes:
+  - message: Добавлена хирургия.
+    type: Add
+  - message: Теперь нельзя провести операцию над самим собой.
+    type: Fix
+  - message: Исправлен баг с конвульсиями существ пристегнутых к кроватям.
+    type: Fix
+  id: 6818
+  time: '2024-07-5T12:27:11.0000000+00:00'
