@@ -646,6 +646,7 @@ public abstract partial class SharedDoorSystem : EntitySystem
     /// </summary>
     public AccessTypes AccessType = AccessTypes.Id;
 
+
     /// <summary>
     /// How door access should be handled.
     /// </summary>

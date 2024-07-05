@@ -25,16 +25,8 @@ namespace Content.Server.GameTicking.Commands
                 shell.WriteLine(Loc.GetString("forcemap-command-need-one-argument"));
                 return;
             }
-
             var gameMap = IoCManager.Resolve<IGameMapManager>();
             var name = args[0];
-
-            if (!gameMap.TrySelectMapIfEligible(name))
-            {
-                shell.WriteLine($"No eligible map exists with name {name}.");
-                return;
-            }
-
             _configurationManager.SetCVar(CCVars.GameMap, name);
             shell.WriteLine(Loc.GetString("forcemap-command-success", ("map", name)));
         }
