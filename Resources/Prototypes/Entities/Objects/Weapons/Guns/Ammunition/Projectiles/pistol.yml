@@ -43,3 +43,14 @@
       types:
         Radiation: 6
         Piercing: 10
+
+- type: entity
+  id: BulletPistolSMG
+  name: bullet (5.7x28 auto)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 9
