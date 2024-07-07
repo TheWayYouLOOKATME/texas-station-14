@@ -96,9 +96,9 @@
   description: A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Coats/hos_trenchcoat.rsi
+    sprite: Clothing/OuterClothing/Coats/hos_greatcoat.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Coats/hos_trenchcoat.rsi
+    sprite: Clothing/OuterClothing/Coats/hos_greatcoat.rsi
 
 - type: entity
   parent: ClothingOuterStorageToggleableBase
