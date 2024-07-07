@@ -125,7 +125,7 @@
     deleted : true
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 675
+    autoRechargeRate: 490
     slots:
     - Belt
     - suitStorage

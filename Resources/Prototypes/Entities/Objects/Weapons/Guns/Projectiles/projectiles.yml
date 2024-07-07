@@ -976,8 +976,6 @@
     lightningPrototype: Lightning
   - type: Electrified
     requirePower: false
-  - type: Tag
-    tags:
 
 - type: entity
   name : crossbowenergy bolt
@@ -1014,7 +1012,7 @@
   - type: Projectile
     damage:
       types:
-        Poison: 18
+        Poison: 9
     soundHit:
       collection: WeakHit
     forceSound: true
