@@ -1,7 +1,5 @@
 ent-FoodMeatBase = { ent-FoodInjectableBase }
     .desc = { ent-FoodInjectableBase.desc }
-ent-FoodMeatRawBase = { ent-FoodMeatBase }
-    .desc = { ent-FoodMeatBase.desc }
 ent-FoodMeat = сырое мясо
     .desc = Кусок сырого мяса.
 ent-FoodMeatHuman = сырое мясо человека

@@ -1,7 +1,5 @@
 ent-ClothingShoesChef = поварские ботинки
     .desc = Прочная обувь, которая минимизирует травмы от падающих предметов или ножей.
-ent-ClothingShoesClownBase = { ent-ClothingSlotBase }
-    .desc = { ent-ClothingSlotBase.desc }
 ent-ClothingShoesClown = клоунские туфли
     .desc = Стандартные клоунские туфли. Чертовски огромные!
 ent-ClothingShoesClownBanana = банановые клоунские туфли
@@ -28,7 +26,7 @@ ent-ClothingShoesJester = шутовские туфли
     .desc = Туфли придворного шута, усовершенствованные с помощью современной технологии скрипа.
 ent-ClothingShoesCluwne = клувеньские туфли
     .desc = Проклятая пара клувеньских туфель.
-    .suffix = Неснимаемый
+    .suffix = Неснимаемыйs
 ent-ClothingShoesClownLarge = большие клоунские туфли
     .desc = Когда вам нужно выделиться в комнате, полной клоунов!
 ent-ClothingShoesSkates = роликовые коньки

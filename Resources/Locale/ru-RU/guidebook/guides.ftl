@@ -11,7 +11,7 @@ guide-entry-access-configurator = Конфигуратор доступа
 guide-entry-power = Электропитание
 guide-entry-portable-generator = Портативные генераторы
 guide-entry-ame = Двигатель антиматерии (ДАМ)
-guide-entry-singularity = Сингулярный двигатель
+guide-entry-singularity = Сингулярный двигатель / Тесла
 guide-entry-teg = Термоэлектрический генератор (ТЭГ)
 guide-entry-rtg = РИТЭГ
 guide-entry-science = Научный отдел
@@ -39,8 +39,7 @@ guide-entry-medical = Медицинский отдел
 guide-entry-medicaldoctor = Врач
 guide-entry-chemist = Химик
 guide-entry-medicine = Медицина
-guide-entry-brute =
-    Продвинутое лечение
+guide-entry-brute = Продвинутое лечение
     механических повреждений
 guide-entry-botanicals = Ботаника
 guide-entry-cloning = Клонирование

@@ -2,6 +2,7 @@ anomaly-component-contact-damage = Аномалия сдирает с вас к�
 anomaly-vessel-component-anomaly-assigned = Аномалия присвоена сосуду.
 anomaly-vessel-component-not-assigned = Этому сосуду не присвоена ни одна аномалия. Попробуйте использовать на нём сканер.
 anomaly-vessel-component-assigned = Этому сосуду уже присвоена аномалия.
+anomaly-vessel-component-upgrade-output = генерация очков
 anomaly-particles-delta = Дельта-частицы
 anomaly-particles-epsilon = Эпсилон-частицы
 anomaly-particles-zeta = Зета-частицы
@@ -10,6 +11,9 @@ anomaly-particles-sigma = Сигма-частицы
 anomaly-scanner-component-scan-complete = Сканирование завершено!
 anomaly-scanner-ui-title = сканер аномалий
 anomaly-scanner-no-anomaly = Нет просканированной аномалии.
+# BEGIN SS220 no anomaly msg for anomalyscanner
+anomaly-scanner-isnt-anomaly = [bold][color = red]ОШИБКА:[/color][/bold] ОБЪЕКТ НЕ ЯВЛЯЕТСЯ АНОМАЛИЕЙ!
+# END SS220 no anomaly msg for anomalyscanner
 anomaly-scanner-severity-percentage = Текущая опасность: [color=gray]{ $percent }[/color]
 anomaly-scanner-severity-percentage-unknown = Текущая опасность: [color=red]ОШИБКА[/color]
 anomaly-scanner-stability-low = Текущее состояние аномалии: [color=gold]Распад[/color]
@@ -32,8 +36,8 @@ anomaly-gorilla-core-slot-name = Ядро аномалии
 anomaly-gorilla-charge-none = Внутри нет [bold]ядра аномалии[/bold].
 anomaly-gorilla-charge-limit =
     { $count ->
-        [one] Остался
-       *[other] Осталось
+    [one] Остался
+   *[other] Осталось
     } [color={ $count ->
         [3] green
         [2] yellow

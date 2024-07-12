@@ -1,5 +1,8 @@
 ent-MonkeyCube = обезьяний кубик
     .desc = Просто добавь воды!
+ent-DehydratedSpaceCarp = { ent-PlushieCarp }
+    .suffix = обезвоженный космический карп
+    .desc = { ent-PlushieCarp.desc } Кажется или она дышит?
 ent-KoboldCube = кобольдовый кубик
     .desc = Просто добавь воды!
 ent-CowCube = коровий кубик
@@ -18,8 +21,6 @@ ent-SpaceTickCube = клещевой кубик
     .desc = Просто добавь воды! На свой страх и риск.
 ent-AbominationCube = мерзостный кубик
     .desc = Просто добавь крови!
-ent-DehydratedSpaceCarp = обезвоженный космический карп
-    .desc = Выглядит как плюшевый игрушечный карп, но стоит только добавить воды, и он превращается в настоящего космического карпа!
 ent-SyndicateSponge = обезьяний кубик
     .desc = Просто добавь воды!
     .suffix = Синдикат

@@ -1,5 +1,3 @@
-ent-BaseSuicideAction = { "" }
-    .desc = { "" }
 ent-ActionScream = Крикнуть
     .desc = ААААААААААААААААААААААААА
 ent-ActionTurnUndead = Обратиться в зомби
@@ -22,8 +20,8 @@ ent-ActionActivateScramImplant = УДРАТЬ!
     .desc = Случайным образом телепортирует вас на большое расстояние.
 ent-ActionActivateDnaScramblerImplant = Перемешать ДНК
     .desc = Меняет ваше имя и внешность случайным образом.
-ent-ActionMorphGeras = Morph into Geras
-    .desc = Morphs you into a Geras - a miniature version of you which allows you to move fast, at the cost of your inventory.
+ent-ActionMorphGeras = Превратиться в Герас
+    .desc = Превращает вас в герас - уменьшенную версию вас, позволяющую быстро передвигаться ценой потери инвентаря.
 ent-ActionToggleSuitPiece = Переключить элементы костюма
     .desc = Не забудьте экипировать важные части костюма, прежде чем приступать к действиям.
 ent-ActionCombatModeToggle = [color=red]Боевой режим[/color]
@@ -52,5 +50,3 @@ ent-ActionFireStarter = Поджечь
     .desc = Поджигает противников в радиусе вокруг вас.
 ent-ActionToggleEyes = Открыть/закрыть глаза
     .desc = Закройте глаза, чтобы защитить их, или откройте, чтобы насладиться яркими цветами.
-ent-ActionToggleWagging = action-name-toggle-wagging
-    .desc = action-description-toggle-wagging

@@ -1,2 +1,2 @@
-extended-title = Спокойный
+extended-title = Расширенный
 extended-description = Спокойный игровой опыт. Потребуется вмешательство администраторов.
