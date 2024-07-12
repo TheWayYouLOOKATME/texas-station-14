@@ -1,6 +1,8 @@
 # Weapons
 uplink-pistol-viper-name = Гадюка
 uplink-pistol-viper-desc = Небольшой, легко скрываемый, но маломощный пистолет. Оснащён полностью автоматическим ресивером. Использует патроны калибра .35 авто.
+uplink-crossbow-energy-name = Энергетический Арбалет
+uplink-crossbow-energy-desc = От него веет ужасом, если вы умеете стрелять.
 uplink-revolver-python-name = Питон
 uplink-revolver-python-desc = Брутально простой, эффективный и громкий револьвер Синдиката. Поставляется с бронебойными патронами. Использует патроны калибра .45 магнум.
 uplink-pistol-cobra-name = Кобра

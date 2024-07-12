@@ -97,10 +97,10 @@
     - Belt
 
 - type: entity
-  name: Energy Crossbow
+  name: energy-cross-bow-name
   parent: BaseWeaponBatterySmall
   id: WeaponECrossBow
-  description: A high tech energy crossbow by syndicate.
+  description: energy-cross-bow-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Crossbow/energycrossbow.rsi
