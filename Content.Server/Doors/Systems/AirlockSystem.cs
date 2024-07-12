@@ -29,6 +29,7 @@ public sealed class AirlockSystem : SharedAirlockSystem
         if (TryComp<ApcPowerReceiverComponent>(uid, out var receiverComponent))
         {
             Appearance.SetData(uid, DoorVisuals.Powered, receiverComponent.Powered);
+            Appearance.SetData(uid, DoorVisuals.ClosedLights, true); // Corvax-Resprite-Airlocks
         }
     }
 
@@ -67,9 +68,6 @@ public sealed class AirlockSystem : SharedAirlockSystem
 
     private void OnActivate(EntityUid uid, AirlockComponent component, ActivateInWorldEvent args)
     {
-        if (args.Handled || !args.Complex)
-            return;
-
         if (TryComp<WiresPanelComponent>(uid, out var panel) &&
             panel.Open &&
             TryComp<ActorComponent>(args.User, out var actor))

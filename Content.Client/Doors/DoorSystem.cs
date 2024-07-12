@@ -104,7 +104,7 @@ public sealed class DoorSystem : SharedDoorSystem
             case DoorState.Closed:
                 foreach(var (layer, layerState) in comp.ClosedSpriteStates)
                 {
-                    args.Sprite.LayerSetState( layer, layerState);
+                    args.Sprite.LayerSetState(layer, layerState);
                 }
                 break;
             case DoorState.Opening:

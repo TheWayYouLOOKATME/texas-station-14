@@ -36,7 +36,6 @@ public abstract class SharedFirelockSystem : EntitySystem
     {
         if (!Resolve(uid, ref firelock, ref door))
             return false;
-
         if (door.State != DoorState.Open
             || firelock.EmergencyCloseCooldown != null
             && _gameTiming.CurTime < firelock.EmergencyCloseCooldown)
