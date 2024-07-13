@@ -15,6 +15,6 @@ chat-radio-syndicate = Синдикат
 chat-radio-freelance = Фриланс
 # not headset but whatever
 chat-radio-handheld = Портативный
-
-chat-radio-no-id = Без ID
 chat-radio-binary = Двоичный
+# Sunrise-Edit
+chat-radio-no-id = Без ID

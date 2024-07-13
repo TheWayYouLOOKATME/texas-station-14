@@ -12,9 +12,7 @@ station-beacon-armory = Оружейная
 station-beacon-perma-brig = Пермабриг
 station-beacon-detective = Детектив
 station-beacon-courtroom = Зал суда
-# Corvax-Localization-Start
 station-beacon-law = Офис АВД
-# Corvax-Localization-End
 station-beacon-security-checkpoint = КПП СБ
 station-beacon-medical = Медицинский отдел
 station-beacon-medbay = Медотсек
@@ -45,7 +43,7 @@ station-beacon-smes = СМЭС
 station-beacon-telecoms = Телекоммуникации
 station-beacon-atmos = Атмосферный отсек
 station-beacon-teg = ТЭГ
-station-beacon-tech-vault = Техническое хранилище
+station-beacon-tech-vault = Технологическое хранилище
 station-beacon-service = Сервисные помещения
 station-beacon-kitchen = Кухня
 station-beacon-bar = Бар
@@ -65,3 +63,4 @@ station-beacon-tools = Хранилище инструментов
 station-beacon-disposals = Мусоросброс
 station-beacon-cryosleep = Криосон
 station-beacon-escape-pod = Спасательная капсула
+station-beacon-blueshield = Синий щит

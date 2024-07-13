@@ -1,4 +1,6 @@
 barsign-component-name = вывеска бара
+barsign-ui-menu = Настройка вывески бара
+barsign-ui-set-label = Выбрать вывеску:
 
 # Bar signs prototypes
 
@@ -15,7 +17,7 @@ barsign-prototype-description-singulo = Куда приходят люди, ко
 
 ## The Drunk Carp
 
-barsign-prototype-name-drunk-carp = Пьяный карп
+barsign-prototype-name-drunk-carp = Бухой карп
 barsign-prototype-description-drunk-carp = Не пейте плавая.
 
 ## Officer Beersky

@@ -5,6 +5,7 @@ comms-console-menu-announcement-button = Сделать объявление
 comms-console-menu-broadcast-button = Трансляция
 comms-console-menu-call-shuttle = Вызвать
 comms-console-menu-recall-shuttle = Отозвать
+comms-console-menu-time-remaining = Оставшееся время: { $time }
 # Popup
 comms-console-permission-denied = В доступе отказано
 comms-console-shuttle-unavailable = В настоящее время шаттл недоступен
@@ -16,6 +17,3 @@ comms-console-announcement-unknown-sender = Неизвестный
 comms-console-announcement-title-station = Консоль связи
 comms-console-announcement-title-centcom = Центральное командование
 comms-console-announcement-title-nukie = Ядерные оперативники Синдиката
-comms-console-announcement-title-ussp = Союз Советских Социалистических Планет
-comms-console-announcement-title-solo-nukie = Одиночного Ядерного оперативника Синдиката
-comms-console-announcement-title-solo-nukie-war = Войны Одиночным Ядерным оперативником Синдиката

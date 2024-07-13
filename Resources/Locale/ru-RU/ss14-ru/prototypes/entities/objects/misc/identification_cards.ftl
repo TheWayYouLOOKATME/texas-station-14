@@ -109,14 +109,11 @@ ent-ZookeeperIDCard = ID карта зоотехника
     .desc = { ent-IDCardStandard.desc }
 ent-DetectiveIDCard = ID карта детектива
     .desc = { ent-IDCardStandard.desc }
-# SS220 CBURN questions
-ent-CBURNIDcard = ID карта РХБЗ
+ent-CBURNIDcard = ID карта РХБЗЗ
     .desc = { ent-CentcomIDCard.desc }
-    .suffix = РХБЗ
+    .suffix = РХБЗЗ
 ent-CluwneIDCard = ID карта клувеня
     .suffix = Неснимаемый
-    .desc = { ent-IDCardStandard.desc }
-ent-BlueShieldIDCard = ID карта офицера Синего Щита
     .desc = { ent-IDCardStandard.desc }
 ent-SeniorEngineerIDCard = ID карта ведущего инженера
     .desc = { ent-EngineeringIDCard.desc }

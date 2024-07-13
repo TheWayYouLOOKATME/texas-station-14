@@ -27,7 +27,6 @@ news-write-ui-article-count-text =
 news-write-ui-footer-text = Система управления новостями Менеджер#Новостей™
 news-write-ui-new-article = Новая статья
 news-write-ui-article-name-label = Заголовок:
-news-write-ui-article-content-label = Содержание:
 news-write-no-access-popup = Нет доступа
 news-writer-text-length-exceeded = Текст превышает максимальный объём
 news-write-ui-richtext-tooltip =
@@ -40,3 +39,4 @@ news-write-ui-richtext-tooltip =
     { "[bullet/]color" }
     { "[bullet/]bullet[/color]" }
 news-pda-notification-header = Новая новостная статья
+news-publish-admin-announcement = { $actor } опубликовал(а) новостную статью { $title } за авторством { $author }"

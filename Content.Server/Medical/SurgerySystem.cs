@@ -95,23 +95,30 @@ public sealed class SurgerySystem : EntitySystem
         TryComp<ActiveSurgeryComponent>(args.Target, out var surgery);
         if (args.Handled || !args.CanReach || args.Target == null && !HasComp<ActiveSurgeryComponent>(args.Target) && surgery!.IsActive != true)
             return;
-        if (entity.Comp.IsCautery == true && surgery!.IsActive == true)
-        {
-            _audio.PlayPvs(comp!.CauterySound, entity.Owner);
-            RemComp<ActiveSurgeryComponent>(target);
-            args.Handled = true;
-        }
+
         if (entity.Comp.IsScalpel == true && surgery!.IsActive != true)
         {
             surgery!.IsActive = true;
             _audio.PlayPvs(comp!.ScalpelSound, entity.Owner);
             args.Handled = true;
         }
-        if (entity.Comp.IsHemostat == true)
+
+        if (surgery!.IsActive == true)
         {
+            if (entity.Comp.IsCautery == true)
+            {
+            _audio.PlayPvs(comp!.CauterySound, entity.Owner);
+            RemComp<ActiveSurgeryComponent>(target);
+            args.Handled = true;
+            }
+        
+            if (entity.Comp.IsHemostat == true)
+            {
             if (TryHeal(entity, args.User, args.Target!.Value, entity.Comp))
                 args.Handled = true;
+            }
         }
+        
     }
 
     public bool TryHeal(EntityUid uid, EntityUid user, EntityUid target, SurgeryToolComponent component)

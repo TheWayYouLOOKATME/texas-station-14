@@ -1,1 +1,0 @@
-missable-miss = Промах!

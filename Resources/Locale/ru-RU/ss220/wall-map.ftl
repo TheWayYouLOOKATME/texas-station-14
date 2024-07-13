@@ -1,1 +1,0 @@
-viewable-station-map-ui-window-title = карта станции

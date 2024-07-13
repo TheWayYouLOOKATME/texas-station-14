@@ -1,1 +1,0 @@
-research-technology-renewable-power = Термоэлектрический генератор

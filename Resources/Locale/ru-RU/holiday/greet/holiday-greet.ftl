@@ -8,7 +8,6 @@ holiday-name-new-year = Нового года
 holiday-name-mister-lizard = дня рождения Мистера Ящерки
 holiday-name-chinese-new-year = Китайского Нового года
 holiday-name-groundhog-day = Дня сурка
-holiday-name-travis-scott-day = Дня Трэвиса Скотта
 holiday-name-valentines-day = Дня святого Валентина
 holiday-name-birthday13 = Дня рождения Space Station 13
 holiday-name-random-kindness = Дня спонтанного проявления доброты
@@ -70,6 +69,7 @@ holiday-name-festive-season = наступающего Нового года
 holiday-name-boxing-day = Дня подарков
 holiday-name-friday-thirteenth = Дня неприятностей
 holiday-name-national-coming-out-day = Национального дня каминг-аута
+holiday-name-pride-month = Месяца гордости
 
 ## Custom congrats
 

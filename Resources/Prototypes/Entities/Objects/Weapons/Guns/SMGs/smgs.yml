@@ -276,10 +276,8 @@
   - type: Appearance
 
 - type: entity
-  name: p90-name
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunM90
-  description: p90-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/m90.rsi

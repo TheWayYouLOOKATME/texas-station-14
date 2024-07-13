@@ -1,3 +1,2 @@
-# SS220 CBURN questions
-ent-ClothingHeadHelmetCBURNLeader = шлем командира отряда РХБЗ
+ent-ClothingHeadHelmetCBURNLeader = шлем командира отряда РХБЗЗ
     .desc = Огнеупорный, защищающий давления шлем, который используют специальные подразделения зачистки.

@@ -18,5 +18,3 @@ cargo-gift-space-protection = средства защиты от космоса
 cargo-gift-fire-protection = средства защиты от огня
 cargo-gift-security-guns = летальное оружие
 cargo-gift-security-riot = нелетальное снаряжение
-cargo-gift-dest-all = экипажу
-cargo-gift-dest-gamma = военное снаряжение

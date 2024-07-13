@@ -1,12 +1,11 @@
-ent-BriefcaseBrownFilled = { bounty-item-briefcase }
+ent-BriefcaseBrownFilled = коричневый чемодан
     .suffix = Заполненный, Бумага
     .desc = { ent-BriefcaseBrown.desc }
-ent-BriefcaseSyndieSniperBundleFilled = { bounty-item-briefcase }
+ent-BriefcaseSyndieSniperBundleFilled = коричневый чемодан
     .suffix = Заполненный, Христов
     .desc = { ent-BriefcaseSyndie.desc }
-# SS220-lobbying-bundle-fake-money
-ent-BriefcaseSyndieLobbyingBundleFilled = { bounty-item-briefcase }
-    .suffix = набор лоббиста, Синдикат, Кредиты,
+ent-BriefcaseSyndieLobbyingBundleFilled = коричневый чемодан
+    .suffix = Синдикат, Кредиты
     .desc = { ent-BriefcaseSyndie.desc }
 ent-BriefcaseThiefBribingBundleFilled = коричневый чемодан
     .suffix = Вор, Кредиты
