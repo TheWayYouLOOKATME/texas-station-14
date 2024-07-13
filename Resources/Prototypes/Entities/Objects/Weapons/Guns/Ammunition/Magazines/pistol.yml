@@ -318,7 +318,6 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunM
-  name: M90 Magazine (5.7x28)
   parent: BaseMagazinePistolSubMachineGun
   components:
   - type: Tag

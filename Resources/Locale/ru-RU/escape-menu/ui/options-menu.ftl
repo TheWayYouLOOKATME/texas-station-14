@@ -1,14 +1,16 @@
 ## General stuff
 
 ui-options-title = Игровые настройки
+ui-options-tab-accessibility = Доступность
 ui-options-tab-graphics = Графика
 ui-options-tab-controls = Управление
 ui-options-tab-audio = Аудио
 ui-options-tab-network = Сеть
 ui-options-tab-misc = Основные
-ui-options-apply = Применить
-ui-options-reset-all = Сбросить всё
-ui-options-default = По-умолчанию
+ui-options-apply = Сохранить и применить
+ui-options-reset-all = Сброс изменений
+ui-options-default = Сброс к настройкам по умолчанию
+ui-options-value-percent = { TOSTRING($value, "P0") }
 
 # Misc/General menu
 
@@ -19,6 +21,7 @@ ui-options-general-cursor = Курсор
 ui-options-general-speech = Речь
 ui-options-general-storage = Инвентарь
 ui-options-general-accessibility = Доступность
+ui-options-general-lobby = Лобби
 
 ## Audio menu
 
@@ -27,19 +30,26 @@ ui-options-midi-volume = Громкость MIDI (Муз. инструменты
 ui-options-ambient-music-volume = Громкость музыки окружения:
 ui-options-ambience-volume = Громкость окружения:
 ui-options-lobby-volume = Громкость лобби и окончания раунда:
-ui-options-ahelp-volume = Громкость AHelp:
 ui-options-interface-volume = Громкость интерфейса:
 ui-options-ambience-max-sounds = Кол-во одновременных звуков окружения:
 ui-options-lobby-music = Музыка в лобби
 ui-options-restart-sounds = Звуки перезапуска раунда
 ui-options-event-music = Музыка событий
 ui-options-admin-sounds = Музыка админов
-ui-options-ahelp-sounds = Звуки АХелпа
+ui-options-tts-enabled = TTS интеграция
+ui-options-tape-player-enabled = Школьники с колонками (Нужен рестарт раунда)
 ui-options-volume-label = Громкость
-ui-options-volume-percent = { TOSTRING($volume, "P0") }
+ui-options-display-label = Дисплей
+ui-options-quality-label = Качество
+ui-options-misc-label = Разное
+ui-options-interface-label = Интерфейс
 
 ## Graphics menu
 
+ui-options-lobby-opacity = Прозрачность лобби
+ui-options-lobby-background = Фон лобби
+ui-options-show-lobby-changelog = Показывать чейнжлог в лобби
+ui-options-show-lobby-servers-hub = Показывать хаб серверов в лобби
 ui-options-show-held-item = Показать удерживаемый элемент рядом с курсором
 ui-options-show-combat-mode-indicators = Показать индикатор боевого режима рядом с курсором
 ui-options-opaque-storage-window = Непрозрачность окна хранилища
@@ -47,13 +57,6 @@ ui-options-show-ooc-patron-color = Цветной ник в OOC для патр�
 ui-options-show-looc-on-head = Показывать LOOC-чат над головами персонажей
 ui-options-fancy-speech = Показывать имена в облачках с текстом
 ui-options-fancy-name-background = Добавить фон облачкам с текстом
-ui-options-enable-color-name = Цветные имена персонажей
-ui-options-colorblind-friendly = Режим для дальтоников
-ui-options-reduced-motion = Снижение интенсивности визуальных эффектов
-ui-options-chat-window-opacity = Прозрачность окна чата
-ui-options-chat-window-opacity-percent = { TOSTRING($opacity, "P0") }
-ui-options-screen-shake-intensity = Интенсивность дрожания экрана
-ui-options-screen-shake-percent = { TOSTRING($intensity, "P0") }
 ui-options-vsync = Вертикальная синхронизация
 ui-options-fullscreen = Полный экран
 ui-options-lighting-label = Качество освещения:
@@ -64,30 +67,10 @@ ui-options-lighting-high = Высокое
 ui-options-scale-label = Масштаб UI:
 ui-options-scale-auto = Автоматическое ({ TOSTRING($scale, "P0") })
 ui-options-scale-75 = 75%
-ui-options-scale-80 = 80%
-ui-options-scale-85 = 85%
-ui-options-scale-90 = 90%
-ui-options-scale-95 = 95%
 ui-options-scale-100 = 100%
-ui-options-scale-105 = 105%
-ui-options-scale-110 = 110%
-ui-options-scale-115 = 115%
-ui-options-scale-120 = 120%
 ui-options-scale-125 = 125%
-ui-options-scale-130 = 130%
-ui-options-scale-135 = 135%
-ui-options-scale-140 = 140%
-ui-options-scale-145 = 145%
 ui-options-scale-150 = 150%
-ui-options-scale-155 = 155%
-ui-options-scale-160 = 160%
-ui-options-scale-165 = 165%
-ui-options-scale-170 = 170%
 ui-options-scale-175 = 175%
-ui-options-scale-180 = 180%
-ui-options-scale-185 = 185%
-ui-options-scale-190 = 190%
-ui-options-scale-195 = 195%
 ui-options-scale-200 = 200%
 ui-options-hud-theme = Тема HUD:
 ui-options-hud-theme-default = По умолчанию
@@ -96,20 +79,25 @@ ui-options-hud-theme-slimecore = Слаймкор
 ui-options-hud-theme-clockwork = Механизм
 ui-options-hud-theme-retro = Ретро
 ui-options-hud-theme-minimalist = Минимализм
-ui-options-hud-theme-eris = Эрис
 ui-options-hud-theme-ashen = Пепел
 ui-options-vp-stretch = Растянуть изображение для соответствия окну игры
-ui-options-vp-scale = Фиксированный масштаб окна игры: x{ $scale }
+ui-options-vp-scale = Фиксированный масштаб окна игры:
+ui-options-vp-scale-value = x{ $scale }
 ui-options-vp-integer-scaling = Использовать целочисленное масштабирование (может вызывать появление чёрных полос/обрезания)
 ui-options-vp-integer-scaling-tooltip =
     Если эта опция включена, область просмотра будет масштабироваться,
     используя целочисленное значение при определённых разрешениях. Хотя это и
     приводит к чётким текстурам, это часто означает, что сверху/снизу экрана будут
     чёрные полосы или что часть окна не будет видна.
+ui-options-vp-vertical-fit = Подгон окна просмотра по вертикали
+ui-options-vp-vertical-fit-tooltip =
+    Когда функция включена, основное окно просмотра не будет учитывать горизонтальную ось
+    при подгонке под ваш экран. Если ваш экран меньше, чем окно просмотра,
+    то это приведёт к его обрезанию по горизонтальной оси.
 ui-options-vp-low-res = Изображение низкого разрешения
 ui-options-parallax-low-quality = Низкокачественный параллакс (фон)
 ui-options-fps-counter = Показать счётчик FPS
-ui-options-vp-width = Ширина окна игры: { $width }
+ui-options-vp-width = Ширина окна игры:
 ui-options-hud-layout = Тип HUD:
 
 ## Controls menu
@@ -268,3 +256,8 @@ ui-options-net-pvs-leave-tooltip =
     привести к неправильным предугадываниям и другим проблемам.
 cmd-options-desc = Открывает меню опций, опционально с конкретно выбранной вкладкой.
 cmd-options-help = Использование: options [tab]
+ui-options-enable-color-name = Цветные имена персонажей
+ui-options-colorblind-friendly = Режим для дальтоников
+ui-options-reduced-motion = Снижение интенсивности визуальных эффектов
+ui-options-chat-window-opacity = Прозрачность окна чата
+ui-options-screen-shake-intensity = Интенсивность дрожания экрана

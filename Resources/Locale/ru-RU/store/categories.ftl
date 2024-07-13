@@ -11,7 +11,12 @@ store-category-allies = Союзники
 store-category-wearables = Экипировка
 store-category-implants = Импланты
 store-category-job = Работа
-store-category-armor = Броня
 store-category-pointless = Безделушки
 # Revenant
 store-category-abilities = Способности
+# Wizard
+store-caregory-spellbook-offensive = Атакующие заклинания
+store-caregory-spellbook-defensive = Защитные заклинания
+store-caregory-spellbook-utility = Вспомогательные заклинания
+store-caregory-spellbook-equipment = Волшебное снаряжение
+store-caregory-spellbook-events = Заклинания событий

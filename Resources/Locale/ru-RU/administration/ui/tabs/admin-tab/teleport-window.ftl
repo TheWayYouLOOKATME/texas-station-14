@@ -1,1 +1,0 @@
-admin-teleport-window-teleport = Телепортироваться

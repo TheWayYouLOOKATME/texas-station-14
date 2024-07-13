@@ -1,8 +1,8 @@
 ent-ImprovisedExplosive = самодельное взрывное устройство
-    .desc = Убить банкой? Теперь – это возможно!
+    .desc = Слабое самодельное зажигательное устройство.
 ent-ImprovisedExplosiveEmpty = самодельное взрывное устройство
-    .desc = { ent-ImprovisedExplosive.desc } Не хватает только залить топлива!
+    .desc = Слабое самодельное зажигательное устройство. В нём нет топлива.
     .suffix = Пустой
-ent-ImprovisedExplosiveFuel = самодельное взрывное устройство
-    .desc = { ent-ImprovisedExplosive.desc } Осталось добавить провода, чтобы заработало.
+ent-ImprovisedExplosiveFuel = { ent-ImprovisedExplosiveEmpty }
+    .desc = Слабое самодельное зажигательное устройство. В нём нет проводов.
     .suffix = Топливо

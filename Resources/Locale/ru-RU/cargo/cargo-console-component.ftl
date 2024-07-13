@@ -35,6 +35,7 @@ cargo-console-paper-print-name = Заказ #{ $orderNumber }
 cargo-console-paper-print-text =
     Заказ #{ $orderNumber }
     Товар: { $itemName }
+    Кол-во: {$orderQuantity}
     Запросил: { $requester }
     Причина: { $reason }
     Одобрил: { $approver }
@@ -44,4 +45,3 @@ cargo-shuttle-console-station-unknown = Неизвестно
 cargo-shuttle-console-shuttle-not-found = Не найден
 cargo-no-shuttle = Грузовой шаттл не найден!
 cargo-shuttle-console-organics = На шаттле обнаружены органические формы жизни
-cargo-telepad-delay-upgrade = Задержка телепортации

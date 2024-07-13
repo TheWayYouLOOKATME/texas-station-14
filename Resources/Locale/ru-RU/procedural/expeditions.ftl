@@ -19,13 +19,6 @@ salvage-expedition-window-next = Следующее предложение
 # Expedition descriptions
 salvage-expedition-difficulty-players = Рекомендовано утилизаторов:
 #  С вас удержат налог в размере { $tax }% от добытых ресурсов.
-salvage-expedition-desc-structure = Уничтожьте { $count } ед. { $structure } внутри зоны экспедиции.
-salvage-expedition-desc-elimination = Убейте большое и опасное существо внутри зоны экспедиции.
-salvage-expedition-type-Mining = Добыча
-salvage-expedition-type-Destruction = Разрушение
-salvage-expedition-type-Elimination = Уничтожение
-salvage-expedition-difficulty-Minimal = Минимальная
-salvage-expedition-difficulty-Minor = Невысокая
 salvage-expedition-difficulty-Moderate = Умеренная
 salvage-expedition-difficulty-Hazardous = Высокая
 salvage-expedition-difficulty-Extreme = Экстремальная

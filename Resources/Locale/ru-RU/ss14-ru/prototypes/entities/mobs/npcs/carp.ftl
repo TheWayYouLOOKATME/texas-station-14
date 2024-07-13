@@ -1,5 +1,5 @@
 ent-BaseMobCarp = космический карп
-    .desc = Существо из космоса, которое способно сделать неподготовленному болючий "кусь".
+    .desc = Это космический карп.
 ent-MobCarp = { ent-BaseMobCarp }
     .desc = { ent-BaseMobCarp.desc }
 ent-MobCarpMagic = мэджикарп

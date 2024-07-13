@@ -292,10 +292,8 @@
     speedModifier: 2.0
 
 - type: entity
-  name: drapes-name
   id: DrapesItem
   parent: BaseToolSurgery
-  description: drapes-desc
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/drapes.rsi

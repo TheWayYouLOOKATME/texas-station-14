@@ -1,7 +1,6 @@
 ent-BaseWeaponLauncher = BaseWeaponLauncher
     .desc = Дерзай — налетай, целься и стреляй.
 ent-WeaponLauncherChinaLake = China Lake
-    .suffix = Гранатомет, Чайна Лейк
     .desc = БЛУП
 ent-WeaponLauncherRocket = РПГ-7
     .desc = Древний ручной реактивный гранатомёт.
@@ -27,3 +26,6 @@ ent-WeaponLauncherAdmemeMeteorLarge = пускатель метеоритов
 ent-WeaponLauncherAdmemeImmovableRodSlow = пускатель неподвижного жезла
     .desc = Стреляет неподвижными жезлами.
     .suffix = Адмемы
+
+ent-WeaponLauncherRocketNT =  { ent-WeaponLauncherRocket }
+    .desc = { ent-WeaponLauncherRocket.desc }

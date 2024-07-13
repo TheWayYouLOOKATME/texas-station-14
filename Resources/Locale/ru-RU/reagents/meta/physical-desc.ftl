@@ -1,4 +1,3 @@
-reagent-physical-desc-skunky = вонючее
 reagent-physical-desc-soapy = мыльное
 reagent-physical-desc-ferrous = чёрнометаллическое
 reagent-physical-desc-nothing = никакое
@@ -67,7 +66,6 @@ reagent-physical-desc-lemony-fresh = лимонно-свежее
 reagent-physical-desc-crisp = хрустящее
 reagent-physical-desc-citric = цитрусовое
 reagent-physical-desc-acidic = кислотное
-reagent-physical-desc-bilky = мивовое
 reagent-physical-desc-buzzy = жужжащее
 reagent-physical-desc-fibrous = волокнистое
 reagent-physical-desc-strong-smelling = сильно пахнущее
@@ -96,3 +94,4 @@ reagent-physical-desc-alkaline = щелочное
 reagent-physical-desc-holy = святое
 reagent-physical-desc-slimy = склизкое
 reagent-physical-desc-neural = нейронное
+reagent-physical-desc-vile = мерзкое
