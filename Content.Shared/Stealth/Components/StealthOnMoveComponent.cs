@@ -19,6 +19,6 @@ namespace Content.Shared.Stealth.Components
         /// Rate for movement induced visibility changes. Scales with distance moved.
         /// </summary>
         [DataField("movementVisibilityRate")]
-        public float MovementVisibilityRate = null;
+        public float MovementVisibilityRate = 0;
     }
 }
