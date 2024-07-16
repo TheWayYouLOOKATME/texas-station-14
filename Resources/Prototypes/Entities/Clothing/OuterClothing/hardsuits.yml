@@ -992,3 +992,35 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSanta
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitStealthVox
+  name: Стелс-скафандр Вокс-налетчика
+  description: Костюм, что носят космические налетчики - воксы, смотря на это плитка под ногами пропадает.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Hardsuits/voxstealthsuit.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Hardsuits/voxstealthsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    coefficient: 0.01
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.6
+        Heat: 0.5
+        Radiation: 0.4
+        Caustic: 0.1
+  - type: ClothingSpeedModifier
+    walkModifier: 1.1
+    sprintModifier: 1.1
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitStealthVox
