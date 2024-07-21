@@ -1,0 +1,44 @@
+- type: entity
+  abstract: true
+  parent: BaseItem
+  id: DartWeaponBase
+  components:
+  - type: Sprite
+  - type: Item
+    size: Normal
+
+- type: entity
+  parent: DartWeaponBase
+  id: VoxDartGun
+  components:
+  - type: Gun
+    fireRate: 1.5
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/click.ogg
+  - type: Sprite
+    sprite: Objects/Texas/voxdartgun.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-unshaded-0
+        map: ["enum.GunVisualLayers.MagUnshaded"]
+        shader: unshaded
+  - type: MagazineVisuals
+    magState: mag
+    steps: 6
+    zeroVisible: true
+  - type: Appearance
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - VoxDart
+    capacity: 5
+    soundInsert:
+      path: /Audio/Weapons/drawbow2.ogg
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
