@@ -3,3 +3,24 @@
   name: Urist McVox
   parent: BaseMobVox
   id: MobVox
+
+- type: entity
+  noSpawn: true
+  name: Вокс-Налетчик
+  parent: BaseMobVox
+  id: MobVoxRaider
+  components:
+    - type: AntagSelection
+      briefing:
+        sound: "/Audio/Misc/thief_greeting.ogg"
+    - type: RandomHumanoidAppearance
+    - type: Loadout
+      prototypes: [VoxRaiderGear]
+    - type: GhostTakeoverAvailable
+    - type: GhostRole
+      makeSentient: true
+      name: ghost-role-information-vox-name
+      description: ghost-role-information-vox-description
+      rules: ghost-role-information-freeagent
+      raffle:
+        settings: short

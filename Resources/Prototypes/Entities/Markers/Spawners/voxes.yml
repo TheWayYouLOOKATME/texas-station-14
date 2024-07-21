@@ -1,0 +1,14 @@
+- type: entity
+  name: Vox Raider Spawner
+  id: SpawnMobVoxRaider
+  parent: MarkerBase
+  components:
+  - type: SpawnPoint
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: Mobs/Species/Skeleton/parts.rsi
+      state: skull_icon
+  - type: ConditionalSpawner
+    prototypes:
+      - MobVoxRaider
